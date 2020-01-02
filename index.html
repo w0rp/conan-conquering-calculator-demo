@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Conan Conquering Calculator</title>
+  <style type="text/css">
+    .field {
+      display: block;
+    }
+
+    .thrall-label {
+      display: inline-block;
+      min-width: 5em;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h3>Thralls</h3>
+    <div class="field">
+      <label class="thrall-label">Alchemist:</label>
+      <label><input name="cauldronThrall" id="cauldronThrall0" type="radio" value="0">None</label>
+      <label><input name="cauldronThrall" id="cauldronThrall1" type="radio" value="1">T1</label>
+      <label><input name="cauldronThrall" id="cauldronThrall2" type="radio" value="2">T2</label>
+      <label><input name="cauldronThrall" id="cauldronThrall3" type="radio" value="3">T3</label>
+      <label><input name="cauldronThrall" id="cauldronThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="cauldronThrall" id="cauldronThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Blacksmith:</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall0" type="radio" value="0">None</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall1" type="radio" value="1">T1</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall2" type="radio" value="2">T2</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall3" type="radio" value="3">T3</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="blacksmithThrall" id="blacksmithThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Armorer:</label>
+      <label><input name="armorerThrall" id="armorerThrall0" type="radio" value="0">None</label>
+      <label><input name="armorerThrall" id="armorerThrall1" type="radio" value="1">T1</label>
+      <label><input name="armorerThrall" id="armorerThrall2" type="radio" value="2">T2</label>
+      <label><input name="armorerThrall" id="armorerThrall3" type="radio" value="3">T3</label>
+      <label><input name="armorerThrall" id="armorerThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="armorerThrall" id="armorerThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Carpenter:</label>
+      <label><input name="carpenterThrall" id="carpenterThrall0" type="radio" value="0">None</label>
+      <label><input name="carpenterThrall" id="carpenterThrall1" type="radio" value="1">T1</label>
+      <label><input name="carpenterThrall" id="carpenterThrall2" type="radio" value="2">T2</label>
+      <label><input name="carpenterThrall" id="carpenterThrall3" type="radio" value="3">T3</label>
+      <label><input name="carpenterThrall" id="carpenterThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="carpenterThrall" id="carpenterThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Cook:</label>
+      <label><input name="stoveThrall" id="stoveThrall0" type="radio" value="0">None</label>
+      <label><input name="stoveThrall" id="stoveThrall1" type="radio" value="1">T1</label>
+      <label><input name="stoveThrall" id="stoveThrall2" type="radio" value="2">T2</label>
+      <label><input name="stoveThrall" id="stoveThrall3" type="radio" value="3">T3</label>
+      <label><input name="stoveThrall" id="stoveThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="stoveThrall" id="stoveThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Tanner:</label>
+      <label><input name="tannerThrall" id="tannerThrall0" type="radio" value="0">None</label>
+      <label><input name="tannerThrall" id="tannerThrall1" type="radio" value="1">T1</label>
+      <label><input name="tannerThrall" id="tannerThrall2" type="radio" value="2">T2</label>
+      <label><input name="tannerThrall" id="tannerThrall3" type="radio" value="3">T3</label>
+      <label><input name="tannerThrall" id="tannerThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="tannerThrall" id="tannerThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <div class="field">
+      <label class="thrall-label">Smelter:</label>
+      <label><input name="furnaceThrall" id="furnaceThrall0" type="radio" value="0">None</label>
+      <label><input name="furnaceThrall" id="furnaceThrall1" type="radio" value="1">T1</label>
+      <label><input name="furnaceThrall" id="furnaceThrall2" type="radio" value="2">T2</label>
+      <label><input name="furnaceThrall" id="furnaceThrall3" type="radio" value="3">T3</label>
+      <label><input name="furnaceThrall" id="furnaceThrall4" type="radio" value="4" checked>T4</label>
+      <label><input name="furnaceThrall" id="furnaceThrall5" type="radio" value="5">T4 Purge</label>
+    </div>
+    <hr>
+    <p>
+      Type in what you want below.
+
+      If you get rubbish results, type in more of the actual name of the thing
+      you want. The search is very fuzzy.
+    </p>
+    <h3>Search</h3>
+    <div class="field">
+      <label>
+        Desired Items:
+        <input name="q" id="searchBox" type="text" placeholder="20 Demon-fire Orb">
+      </label>
+    </div>
+  </form>
+  <pre><output id="searchOutput"></output></pre>
+  <script src="ccc.js"></script>
+</body>
+</html>
